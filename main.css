@@ -4,7 +4,7 @@
     .emoji {
         margin-left: 20%;
     }
-    .seta-left, .fa-xmark, #menu {
+    .seta-left, .fa-xmark {
         display: none;
     }
 }
@@ -34,6 +34,12 @@
 @media (max-width: 770px) {
     .emoji {
         margin-left: 12%;
+    }
+}
+
+@media (min-width:646px) {
+    #menu {
+        display: none !important;
     }
 }
 
