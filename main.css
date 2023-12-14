@@ -4,7 +4,7 @@
     .emoji {
         margin-left: 20%;
     }
-    .seta-left {
+    .seta-left, .fa-xmark, #menu {
         display: none;
     }
 }
@@ -42,7 +42,7 @@
         display: none;
     }
 
-    .seta-left {
+    .seta-left, .fa-xmark, #menu {
         display: block;
     }
 }
@@ -76,6 +76,16 @@ body {
     border-right: 1px solid rgba(128, 128, 128, 0.31);
     width: 380px;
     background-color: white;
+}
+
+#menu {
+    height: 100%;
+    width: 310px;
+}
+
+.fa-xmark {
+    font-size: 25px;
+    margin: auto 13px;
 }
 
 .pesquisa {
