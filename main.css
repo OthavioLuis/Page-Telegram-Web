@@ -58,6 +58,9 @@
         width: 250px !important;
         height: 280px !important;
     }
+    .caixa-msg {
+        margin-left: -10px;
+    }
 }
 
 
@@ -87,6 +90,7 @@ body {
 #menu {
     height: 100%;
     width: 310px;
+    position: absolute;
 }
 
 .fa-xmark {
@@ -291,7 +295,7 @@ body {
 
 
 .caixa-msg {
-    height: 80px;
+    height: 90px;
     width: 100%;
     display: flex;
 }
